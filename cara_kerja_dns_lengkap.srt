@@ -1,0 +1,184 @@
+1
+00:00:00,000 --> 00:00:01,720
+Setiap kali kamu
+buka website,
+
+2
+00:00:02,000 --> 00:00:03,780
+HP-mu diam-diam
+menjalankan
+
+3
+00:00:03,780 --> 00:00:05,880
+misi pencarian alamat
+keliling dunia.
+
+4
+00:00:06,080 --> 00:00:08,440
+Komputer aslinya cuma
+ngerti alamat angka,
+
+5
+00:00:08,500 --> 00:00:10,140
+atau IP Address.
+
+6
+00:00:10,460 --> 00:00:13,760
+Nah, DNS adalah buku
+kontak raksasa internet
+
+7
+00:00:13,760 --> 00:00:16,400
+yang mencocokkan nama
+website dengan angkanya
+
+8
+00:00:16,400 --> 00:00:19,080
+di dalam sebuah tabel
+bernama DNS Table.
+
+9
+00:00:19,460 --> 00:00:21,000
+Saat kamu ketik
+nama website,
+
+10
+00:00:21,240 --> 00:00:23,680
+HP-mu pertama-tama
+nanya ke Router di rumah.
+
+11
+00:00:23,960 --> 00:00:25,050
+Kalau Router nggak tahu,
+
+12
+00:00:25,280 --> 00:00:27,620
+dia oper tugas ini
+ke aktor utama kita:
+
+13
+00:00:27,620 --> 00:00:29,300
+DNS Resolver,
+
+14
+00:00:29,460 --> 00:00:30,960
+si kurir pencari alamat!
+
+15
+00:00:31,220 --> 00:00:32,980
+Di sini ada
+dua cara kerja.
+
+16
+00:00:33,160 --> 00:00:34,900
+Pertama, cara Rekursif.
+
+17
+00:00:35,160 --> 00:00:37,520
+HP dan Router kamu
+cuma bilang ke Resolver:
+
+18
+00:00:37,760 --> 00:00:39,140
+"Tolong cariin,
+sampai ketemu!"
+
+19
+00:00:39,400 --> 00:00:41,980
+Lalu, mereka duduk santai
+nunggu hasil akhirnya.
+
+20
+00:00:42,220 --> 00:00:43,740
+Kedua, cara Iteratif.
+
+21
+00:00:44,080 --> 00:00:46,020
+Si Resolver yang kerja
+keras keliling
+
+22
+00:00:46,020 --> 00:00:47,400
+bertanya satu per satu.
+
+23
+00:00:47,620 --> 00:00:48,920
+Dia tanya ke Root Server,
+
+24
+00:00:49,180 --> 00:00:50,420
+si kantor pusat dunia.
+
+25
+00:00:50,580 --> 00:00:52,860
+Root Server menunjuk
+ke TLD Server,
+
+26
+00:00:53,060 --> 00:00:56,100
+pengelola akhiran
+seperti .com atau .id.
+
+27
+00:00:56,100 --> 00:00:59,240
+Terakhir, dia diarahkan
+ke Server Autoritatif
+
+28
+00:00:59,240 --> 00:01:01,180
+yang memegang
+DNS Table asli.
+
+29
+00:01:01,420 --> 00:01:02,560
+Begitu angkanya ketemu,
+
+30
+00:01:02,760 --> 00:01:04,800
+websitenya langsung
+kebuka dalam sekejap!
+
+31
+00:01:04,920 --> 00:01:06,000
+Tapi, hati-hati!
+
+32
+00:01:06,240 --> 00:01:08,280
+DNS juga punya
+celah keamanan.
+
+33
+00:01:08,460 --> 00:01:10,180
+Lewat serangan
+DNS Spoofing
+
+34
+00:01:10,180 --> 00:01:12,000
+atau meracuni
+catatan DNS,
+
+35
+00:01:12,340 --> 00:01:14,460
+hacker bisa menyelipkan
+nomor IP palsu.
+
+36
+00:01:14,580 --> 00:01:16,120
+Kamu ketik alamat
+bank asli,
+
+37
+00:01:16,340 --> 00:01:18,540
+tapi malah diarahkan
+ke situs penipu!
+
+38
+00:01:18,720 --> 00:01:22,160
+Makanya, pastikan koneksi
+dan DNS-mu terenkripsi,
+
+39
+00:01:22,160 --> 00:01:24,850
+biar buku kontak internetmu
+nggak pernah dibajak!
+
